@@ -12,6 +12,16 @@
 
     <button id="testBtn">press</button>
 
-    <script src="/static/scripts/landingPage.js"></script> 
+    <button id="nav" onclick="nav()">navigate to test</button>
+
+    <button><a href="/navigationTest">navigate to test using a tag</a></button>
+
+    <script>
+        function nav() {
+            window.location.href = '/navigationTest';
+        }
+    </script>
+
+    <script src="/static/scripts/landingPage.js" type="module"></script> 
 </body>
 </html>
