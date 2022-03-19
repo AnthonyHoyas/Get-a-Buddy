@@ -32,8 +32,10 @@ io.on('connection', (socket) => {
 //io print messages;
 io.on('connection', (socket) => {
     socket.on('chat message', (msg) => {
+        socket.broadcast.emit('chat message', msg)
         console.log('message: ' + msg);
-        io.emit('chat message', msg)
+        //io.emit emits message to all users, including user who sent the message;
+        //io.emit('chat message', msg)
     })
 });
 
