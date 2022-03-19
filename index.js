@@ -12,6 +12,9 @@ app.get('/', (req,res) => {
 app.get('/navigationTest', (req,res) => {
     res.render('navigationTest.ejs');
 })
+app.get('/navigationPage', (req,res) => {
+    res.render('navigationPage.ejs');
+})
 
 
 app.listen(3000, () => {
