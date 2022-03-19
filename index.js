@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 
 //HTML entry point for the application.
 app.get('/', (req,res) => {
-    res.render('chatTest.ejs');
+    res.render('LandingPage.ejs');
 })
 
 
