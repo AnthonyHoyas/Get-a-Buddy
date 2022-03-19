@@ -1,28 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Hello Guys</h1>
-    <h2>Laurent is Back</h2>
 
-    <button id="testBtn">press</button>
+    <div class="myPhoneStatus">
 
-    <button id="nav" onclick="nav()">navigate to test</button>
+    </div>
+    <div class="headLogos">
 
-    <button><a href="/navigationTest">navigate to test using a tag</a></button>
+        <div class="profile">
+        </div>
+        <div class="charlerLogo"></div>
+        <div class="searchLang">
+            <svg width="30" height="30" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5 15.5L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M5 11C5 14.3137 7.68629 17 11 17C12.6597 17 14.1621 16.3261 15.2483 15.237C16.3308 14.1517 17 12.654 17 11C17 7.68629 14.3137 5 11 5C7.68629 5 5 7.68629 5 11Z"
+                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
 
-    <script>
-        function nav() {
-            window.location.href = '/navigationTest';
-        }
-    </script>
+            <!-- <div class="search">S</div> -->
+            <div class="langFlag"></div>
+        </div>
+    </div>
+    <div class="bigCont">
+        <div class="section1">
+            <h3>Agenda de la semaine</h3>
+            <div class="contActCar">
+                <div class="activitCar">
+                    <div class="imgAndText">
+                        <div class="activImg aim1"></div>
+                        <div class="imgText">Citizens Of Wallonia HACKATHON
+                        </div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
 
-    <script src="/static/scripts/landingPage.js" type="module"></script> 
+                    <div class="imgAndText">
+                        <div class="activImg aim2"></div>
+                        <div class="imgText">Charleroi Aventure
+                        </div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span style="opacity: 0.4">105rev</span>
+                    </div>
+                    <div class="imgAndText">
+                        <div class="activImg aim3"></div>
+                        <div class="imgText">Art Nouveau
+                        </div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                    </div>
+                    <div class="imgAndText">
+                        <div class="activImg aim4"></div>
+                        <div class="imgText">Blackland, The Lost Empire
+                        </div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section2">
+        <h3>Qu'est ce que tu recherches?</h3>
+        <div class="mainButtons">
+            <div class="colBut1">
+                <button class="logement">Logement</button>
+                <button class="sante">Santé</button>
+                <button class="transport">Transport</button>
+            </div>
+            <div class="colBut2">
+                <button class="activites">Activités</button>
+                <button class="nourriture">Nourriture</button>
+                <button class="jobs">Jobs</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section3">
+        <h3>Trouve ton Buddy</h3>
+        <div class="buddyImages">
+            <div class="roundImages rnd1"></div>
+            <div class="roundImages rnd2"></div>
+            <div class="roundImages rnd3"></div>
+            <div class="roundImages rnd4"></div>
+        </div>
+    </div>
+    <div class="nouvelleDiv">
+
+    </div>
+    <div class="logoWall"></div>
+    </div>
+
+
+    <script src="/static/scripts/landingPage.js" type="module"></script>
 </body>
+
 </html>

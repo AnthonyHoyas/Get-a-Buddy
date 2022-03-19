@@ -1,3 +1,284 @@
-h1 {
-    color: red;
+*{
+    font-family: 'Lato', sans-serif;
+    /* word-spacing: 2px; */
+    /* letter-spacing: 1px; */
 }
+
+.bigCont{
+    overflow-x: hidden;
+}
+
+.myPhoneStatus{
+    background-image: url('../assets/BatteriePhone.png');
+    background-size: cover ;
+    height: 40px;
+    width: 100%;
+}
+
+.myFont{
+    background-image: url('../assets/mockUpMain.png');
+    background-size: cover ;
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    opacity: 0;
+}
+
+h3 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+
+.checked {
+        color: orange;
+    }
+
+
+.headLogos{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.profile{
+    height: 30px;
+    width: 30px;
+    align-self: center;
+    background-image: url('../assets/profil.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+
+}
+
+.charlerLogo{
+    height: 70px;
+    width: 70px;
+    /* border: solid 2px; */
+    background-image: url('../assets/charleroi.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.searchLang{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+
+.langFlag{
+    background-image: url('https://cdn.countryflags.com/thumbs/united-kingdom/flag-button-round-250.png');
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.activitCar{
+    height: 200px;
+    width: 900px;
+    display: flex;
+    gap: 10px;
+}
+
+.imgText{
+    margin-top: 5px;
+    font-size: 12pt;
+    width: 100%;
+}
+
+.contActCar{
+    overflow-x: scroll;
+}
+
+
+
+.activImg{
+    border-radius: 20px;
+}
+
+.stars{
+    background-image: url('../assets/1-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80px;
+    width: 200px;
+}
+
+
+.aim1{
+    background-image: url('https://www.citizensofwallonia.be/wp-content/uploads/2021/12/Futurocite-Hackathon2K22.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 150px;
+    width: 260px;
+}
+
+.aim2{
+    background-image: url('../assets/charleroiVisit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 260px;
+}
+
+.aim3{
+    background-image: url('../assets/charleroiArt.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 260px;
+}
+
+.aim4{
+    background-image: url('../assets/starWars.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 260px;
+}
+
+.mainButtons{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.colBut1{
+    width: 160px;
+}
+
+.colBut2{
+    width: 160px;
+}
+
+button{
+    /* background: #F2994A; */
+    border-radius: 8px;
+    border:none;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: 0.4s;
+    font-size: 12pt;
+    font-weight: 500 ;
+}
+
+button:active{
+    background-color: white;
+    border: solid 1px;
+    border-color: gray;
+  }
+
+.logement{
+    background: #F2994A;
+}
+
+
+.activites{
+background: #EB5757;
+}
+
+.sante{
+background: #27AE60;
+}
+
+.nourriture{
+background: #2D9CDB;
+}
+
+.transport{
+background: #BB6BD9;
+margin-bottom: 0px;
+}
+
+.jobs{
+background: #F2C94C;
+margin-bottom: 0px;
+}
+
+.section1{
+    padding: 15px;
+}
+
+.section2{
+    padding: 15px;
+}
+
+.section3{
+    padding: 15px;
+}
+
+.buddyImages{
+    display: flex;
+    height: 150px;
+    width: 300px;
+    /* border: solid 2px;  */
+    justify-content: space-around;
+}
+
+.roundImages{
+    border-radius: 50%;
+}
+
+.rnd1{
+    height: 110px;
+    width: 110px;
+    background-image: url('../assets/Woman.png');
+    background-size: contain;
+}
+
+.rnd2{
+    align-self: flex-end;
+    height: 66px;
+    width: 66px;
+    background-image: url('../assets/Woman5.png');
+    background-size: contain; 
+    background-color: aqua;
+}
+
+.rnd3{
+    margin-top: 15px;
+    height: 36px;
+    width: 36px;
+    background-image: url('../assets/Woman3.png');
+    background-size: contain; 
+    background-color: cornsilk;
+}   
+
+.rnd4{
+    align-self: center ;
+    height: 53px;
+    width: 53px;
+    background-image: url('../assets/Woman2.png');
+    background-size: contain; 
+    background-color: aquamarine;
+}   
+
+.logoWall{
+    margin-left: 70%;
+    background-image: url('https://content.digitalwallonia.be/profile/10587-20150526140430000/dw-logo-degrades-358x2592x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px; 
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/* ********** */
+/* Carrousel */
+
+
+
